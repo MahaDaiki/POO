@@ -40,6 +40,10 @@ public function __construct($name, $price, $description)
     {
        $this->description = $description;
     }
+    public function display() {
+    
+        echo "<p>- " . $this->getName() . ": " . $this->getPrice() . "DH - " . $this->getDescription() . "\n</p>";
+    }
 }
 
 

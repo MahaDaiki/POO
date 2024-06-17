@@ -5,7 +5,7 @@ class RegisteredCustomer extends Customer{
 
 private $history = [];
 
-public function  makeorder(Order $order){
+public function  makeOrder(Order $order){
     $this->history[] = $order;
 }
 
